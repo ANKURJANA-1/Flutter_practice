@@ -313,6 +313,78 @@ void main() {
                
              ],
            ),
+           Row(
+             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+             children: [
+               Center(
+                 child: Container(
+                   width: 100,
+                   height: 100,
+                   alignment: Alignment.center,
+                   decoration: BoxDecoration(
+                       color: Colors.red,
+                       gradient: LinearGradient( colors: [
+                         Colors.red,
+                         Colors.green]),
+                      // shape: BoxShape.circle,
+                      borderRadius: BorderRadius.circular(10)   
+                   ),
+                   child: Text(
+                     "First App",
+                     style: TextStyle(
+                       fontSize: 20.0,
+                       color: Colors.white,
+                     ),
+                   ),
+                 ),
+               ),
+                Center(
+                 child: Container(
+                   width: 100,
+                   height: 100,
+                   alignment: Alignment.center,
+                   decoration: BoxDecoration(
+                       color: Colors.red,
+                       gradient: LinearGradient( colors: [
+                         Colors.red,
+                         Colors.green]),
+                      // shape: BoxShape.circle,
+                      borderRadius: BorderRadius.circular(10)   
+                   ),
+                   child: Text(
+                     "First App",
+                     style: TextStyle(
+                       fontSize: 20.0,
+                       color: Colors.white,
+                     ),
+                   ),
+                 ),
+               ),
+                Center(
+                 child: Container(
+                   width: 100,
+                   height: 100,
+                   alignment: Alignment.center,
+                   decoration: BoxDecoration(
+                       color: Colors.red,
+                       gradient: LinearGradient( colors: [
+                         Colors.red,
+                         Colors.green]),
+                      // shape: BoxShape.circle,
+                      borderRadius: BorderRadius.circular(10)   
+                   ),
+                   child: Text(
+                     "First App",
+                     style: TextStyle(
+                       fontSize: 20.0,
+                       color: Colors.white,
+                     ),
+                   ),
+                 ),
+               ),
+               
+             ],
+           ),
          ],
          
        ),
